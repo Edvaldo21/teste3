@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edvaldo</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="assets/fogueteee.png" type="image/x-icon">
+</head>
+<body>
+
+    <main class="main__container">
+        <header class="cabecalho">
+            <img src="assets/fogueteee.png" alt="foguete">
+        </header>
+
+    <div class="container__input">
+        <div class="input">
+            <textarea id="input-texto" placeholder="Digite o seu texto aqui..."></textarea>
+            <p class="atencao">ATENÇÃO: Apenas letras minúsculas e sem caracteres especiais!</p>
+        </div>
+
+    <div id="output">
+        <img class="imagem" src="assets/astronauta.png" alt="astronauta">
+        <h2 class="mensagem">Sua mensagem aparecerá aqui!</h2>
+        <span>Digite um texto que deseja criptografar ou descriptografar</span> 
+    </div>   
+    </div>
+
+    <div class="botao">
+        <div class="container__botao">
+            <button onclick="criptografar()" class="botao__criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="botao__descriptografar">Descriptografar</button>
+        </div>
+    </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="icones">
+            <a href="https://www.linkedin.com/in/edvaldo-costa-0b8340239/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://instagram.com/edvaldocostaa_"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://github.com/Edvaldo21"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por Edvaldo Costa</h3>
+            <p class="ano">2024</p>
+    </footer>
+
+    <script src="interacao/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

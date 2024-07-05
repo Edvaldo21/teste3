@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor--primaria: #374045;
+    --cor--secundaria: #000000;
+    --cor--terciaria: #d89216;
+}
+
+body {
+    background-color: var(--cor--secundaria);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  "Roboto Condensed", sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho img {
+    max-width: 70px;
+    max-height: 70px;
+    width: 50%;
+    height: 50%;
+}
+
+.container__input {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container__input .input {
+    width: 400px;
+    height: 330px;
+}
+
+.atencao {
+    color: white;
+}
+
+#input-texto {
+    width: 345px;
+    height: 330px;
+    font-size: 1.5rem;
+    color: var(--cor--terciaria);
+    background: transparent;
+    resize: none;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: lowercase;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cor--terciaria);
+    border-radius: 20px;
+    width: 400px;
+    height: 480px;
+    margin-right: 3%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--cor--terciaria);
+}
+
+#output span {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--cor--primaria);
+}
+
+#output img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 8%;
+}
+
+.imagem {
+    width: 50%;
+}
+
+.container__botao button {
+    border: 2px solid var(--cor--terciaria);
+    background-color: var(--cor--primaria);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--cor--terciaria);
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+    font-weight: 1000;
+}
+
+.btn-copiar {
+    border: 2px solid var(--cor--terciaria);
+    background-color: var(--cor--primaria);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--cor--terciaria);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+    font-weight: 1000;
+}
+
+.container__botao button:hover {
+    background-color: var(--cor--secundaria);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background-color: var(--cor--primaria);
+    color: var(--cor--terciaria);
+    width: 100%;
+}
+
+.rodape h3 {
+    font-size: 1rem;
+}
+
+.ano {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.icones ion-icon {
+    width: 25px;
+    height: 25px;
+    color: var(--cor--terciaria);
+}
+
+.icones ion-icon:hover {
+    color: var(--cor--secundaria);
+}
+
+@media screen and (max-width:768px){
+
+    .cabecalho{
+        display: flex;
+        justify-content:left;
+        padding: 3%;
+    }
+
+
+    .cabecalho img{
+        max-width:50px;
+        max-height:50px;
+        width: 50%;
+        height: 50%;
+    }
+
+
+    #output h2{
+        text-align: center;
+        font-size: 1.6rem;
+        color: var(--cor--terciaria);
+    }
+    
+    #output span {
+        font-size: 1rem;
+        text-align: center;
+        color: var(--cor--primaria);
+    }
+
+    #output img {
+        display: none;
+    }
+
+    .container__input .input{
+        width: 400px;
+        height: 330px;
+    }
+
+    .container__input{
+        display: flex;
+        justify-content:space-around;
+        flex-direction: column;
+        padding: 2% 0 0 4%;
+    }
+
+    
+     #input-texto{
+        width: 400px;
+        height: 330px;
+        font-size: 20px;
+    }
+
+    
+
+
+.mensagem {
+    font-size: 5rem;
+}
+
+
+.container__botao button{
+   width: 150px;
+   height: 50px;
+   margin-left: 6%;
+   margin-top: 5%;
+}
+
+#output{
+    width: 50%;
+    height: 75%;
+    margin-top: 18%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cor--terciaria);
+    border-radius: 20px;
+    width: 340px;
+    height: 200px;
+ }
+
+.rodape{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 24%;
+   background:var(--cor--primaria) ;
+   color: var(--cor--terciaria);
+   width: 100%;
+}
+    
+}
+
+   
